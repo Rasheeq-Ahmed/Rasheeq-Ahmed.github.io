@@ -291,6 +291,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: space-evenly;
 	}
 
 		.row > * {
@@ -3140,6 +3141,9 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: transparent;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
 		}
 
 		.wrapper.style5 {
@@ -3757,28 +3761,32 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		max-width: 45em;
+		/* max-width: 45em;
+		max-height: 20em; */
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 
 		#cta .inner header {
-			-moz-order: 1;
+			/* -moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
-			order: 1;
-			padding-right: 3em;
-			width: 70%;
+			order: 1; */
+			/* padding-right: 3em;
+			width: 70%; */
 		}
 
 			#cta .inner header p {
 				color: inherit;
 			}
 
-		#cta .inner .actions {
-			-moz-order: 2;
+		#cta .inner .icons {
+			/* -moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
-			order: 2;
-			width: 30%;
+			order: 2; */
+			
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3884,8 +3892,8 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
-		padding: 6em 0 4em 0 ;
+		#footer {
+		padding: 2em 0 1em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -3997,3 +4005,64 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+	#mongo {
+		height: 2em;
+		width: 2em;
+		color: rgb(0, 140, 255);
+	}
+/* 
+	div.icons.major {
+		height: 4em;
+		width: 4em;
+	} */
+
+	.lang {
+		height: 4em;
+		width: 4em;
+		color: white;
+	}
+	/* #lang {
+		height: 4em;
+		width: 4em;
+		color: white;
+	} */
+
+	
+	
+	/* #lang {
+	height: 4em;
+	width: 4em;	
+	} */
+
+
+	/* .fab.fa-npm {
+	height: 4em;
+	width: 4em;	
+	} */
+
+
+	#projects {
+		font-size: 2em;
+		text-decoration: underline;
+	}
+
+	.me {
+		border-radius: 50%;
+		height: 10em;
+		width: 10em;
+		margin-bottom: 1.5em;
+	}
+
+	.major {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#skills {
+		font-size: 2em;
+		text-decoration: underline;
+	}
+
