@@ -290,8 +290,8 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
-		justify-content: space-evenly;
+		justify-content: center;
+		
 	}
 
 		.row > * {
@@ -2317,6 +2317,7 @@ input, select, textarea {
 		ul.icons.major {
 			padding: 1em 0;
 		}
+		
 
 			ul.icons.major li {
 				padding-right: 3.5em;
@@ -3585,7 +3586,7 @@ input, select, textarea {
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
-		text-align: center;
+		text-align: center;p
 	}
 
 		#banner h2 {
@@ -3794,6 +3795,7 @@ input, select, textarea {
 			#cta .inner {
 				display: block;
 				text-align: center;
+				
 			}
 
 				#cta .inner header {
