@@ -3356,7 +3356,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #56947f;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -4083,3 +4083,16 @@ input, select, textarea {
 		text-decoration: underline;
 	}
 
+
+*::-webkit-scrollbar {
+  height: 100px;
+  width: 50%;
+  width: 1rem;
+  background-color: #1313139d;
+}
+
+ *::-webkit-scrollbar-thumb {
+  background-color:  #a53122;
+  /* outline: 5px solid rgb(170, 143, 23); */
+  
+}
